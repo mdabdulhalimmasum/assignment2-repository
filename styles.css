@@ -224,7 +224,9 @@ li a{
 }
 .sec5-img{
     background-image: url(Images/Group\ 40089.png);
-    width: 150%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 .sec5-h2{
     color: #FFF;
@@ -239,10 +241,12 @@ li a{
     display: flex;
     margin: 30px 100px;
     gap: 30px;
+    margin-bottom: -90px;
 }
 .sec6-con{
     border: 2px solid #FF5400;
     border-radius: 10px;
+    height: 420px;
 }
 .sec6-h{
     color: #131318;
@@ -269,6 +273,28 @@ form > input{
     width: 293px;
     height: 32px;
     margin-left: 20px;
+}
+.sec6-discount{
+    background-color: #FF5400;
+    width: 140px;
+    position: relative;
+    bottom: 25%;
+    left: 470px;
+    transform: rotate(-25deg);
+    padding: 0 10px;
+}
+.dis-p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.dis-h{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -15px;
 }
 /* footer style */
 footer{
