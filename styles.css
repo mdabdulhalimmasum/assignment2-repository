@@ -316,3 +316,73 @@ footer{
     padding-left: 15px;
 }
 
+/* responsive styles */
+
+/* mobile styles */
+@media screen and (max-width:576px) {
+    nav,
+    nav > ul,
+    .sec-2,
+    .sec3-img1,
+    .sec3-img2,
+    .sec3-img3,
+    .sec-4,
+    .sec-5,
+    .sec-6{
+        flex-direction: column;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    .sec-1,
+    .sec-2,
+    .sec-4,
+    .sec-5,
+    .sec-6{
+        margin: 0 0;
+    }
+    .sec-1{
+        width: 90%;
+        height: 500px;
+    }
+    #sec-b{
+        margin-top: 10px;
+    }
+    .sec2-con{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .sec2-img{
+        width: 90%;
+    }
+    .sec-4{
+        width: 90%;
+        margin-top: -100px;
+    }
+    .sec4-con3{
+        margin-left: 0;
+        width: 90%;
+    }
+    .sec-5{
+        width: 90%;
+    }
+    .sec-6{
+        width: 90%;
+    }
+    .sec6-con{
+        margin-top: 20px;
+    }
+    .sec6-img{
+        width: 100%;
+    }
+    .sec6-discount{
+        position: relative;
+        left: 160px;
+        margin-top: -140px;
+    }
+    footer{
+        width: 90%;
+        height: 400px;
+    }
+    
+}
