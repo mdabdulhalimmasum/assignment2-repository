@@ -342,11 +342,11 @@ footer{
         margin: 0 0;
     }
     .sec-1{
-        width: 90%;
+        width: 95%;
         height: 500px;
     }
-    #sec-b{
-        margin-top: 10px;
+    #sec1-b{
+        margin-top: 7px;
     }
     .sec2-con{
         width: 90%;
@@ -381,8 +381,32 @@ footer{
         margin-top: -140px;
     }
     footer{
-        width: 90%;
-        height: 400px;
+        width: 95%;
+        height: 320px;
     }
     
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+   .sec-2{
+    flex-direction: column;
+   }
+   .sec-1,
+   .sec-2,
+   .sec-3,
+   .sec-4,
+   .sec-5,
+   .sec-6{
+    margin: 0 0;
+   }
+   .sec-5{
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+   .sec5-img{
+    width: 1000px;
+    margin-left: 100px;
+   }
+   footer{
+    width: 168%;
+   } 
 }
